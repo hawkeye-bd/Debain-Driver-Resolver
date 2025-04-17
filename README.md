@@ -3,9 +3,6 @@
 The ultimate driver fixer for Kali & Debian-based systems.
 
 ---
-
-![Banner](https://user-images.githubusercontent.com/123456789/placeholder-banner.png) <!-- Optional: Replace with your custom image -->
-
 > _"Why troubleshoot drivers manually when you can fix them like a hacker?"_
 
 ---
