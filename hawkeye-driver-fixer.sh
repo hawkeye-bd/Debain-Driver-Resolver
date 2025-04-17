@@ -92,19 +92,20 @@ fix_usb() {
 # First, enable needed sources
 enable_repos
 
-# Menu
+# Menu loop
 while true; do
     echo -e "\n\e[1;34mSelect an option to fix:\e[0m"
-    echo "1. Fix All Devices"
-    echo "2. Fix Only Wi-Fi"
-    echo "3. Fix Only Bluetooth"
-    echo "4. Fix Only GPU"
-    echo "5. Fix Only Audio"
-    echo "6. Fix USB Devices"
-    echo "7. Exit"
-    read -p $'\n> ' choice
+    echo "1) Fix All Devices"
+    echo "2) Fix Only Wi-Fi"
+    echo "3) Fix Only Bluetooth"
+    echo "4) Fix Only GPU"
+    echo "5) Fix Only Audio"
+    echo "6) Fix USB Devices"
+    echo "7) Exit"
 
-    case $choice in
+    read -rp $'\nEnter your choice [1-7]: ' choice
+
+    case "$choice" in
         1)
             fix_wifi
             fix_bluetooth
@@ -129,7 +130,7 @@ while true; do
             ;;
         7)
             echo "[✔] Exiting... Stay rooted, stay sharp. ⚔️"
-            break
+            exit 0
             ;;
         *)
             echo "[!] Invalid option. Try again."
