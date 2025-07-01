@@ -98,7 +98,7 @@ Every satoshi keeps the rebellion going ⚔️
 **Debian-Driver Resolver v0.3**
 Developed by Sadman Adib aka Hawkeye
 
-🔗 [Telegram](https://t.me/your_telegram_link) | 🔧 [FatherUnlocks.com](https://fatherunlocks.com)
+🔗 [Telegram](https://t.me/SadmanAdib)
 
 ---
 
